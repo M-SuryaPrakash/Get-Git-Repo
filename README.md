@@ -5,4 +5,4 @@ Download GitHub public repository or repository's specific sub-folders or specif
 
 ### Website
 
-👉 https://minhaskamal.github.io/DownGit
+👉 https://m-suryaprakash.github.io/Get-Git-Repo/
