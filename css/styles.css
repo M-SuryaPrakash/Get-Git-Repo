@@ -1,0 +1,287 @@
+body {
+    margin: 0;
+    text-align: center;
+    color: #F4F9E8;
+    font-family: 'Poppins', sans-serif;
+    background-color: #032432;
+    background-image: url(images/background.jpg);
+    background-size: cover;
+    background-blend-mode: multiply;
+}
+
+.title {
+    margin: 2% 10% 1%;
+    padding: 2%;
+}
+
+h1 {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 5.5rem;
+    font-weight: 649;
+    text-align: center;
+    color: #F4F9E8;
+    cursor: default;
+}
+
+.git {
+    margin: 0;
+    opacity: 0.8;
+    letter-spacing: 0.1rem;
+}
+
+.fa-github {
+    font-size: 1.25rem;
+}
+
+.box {
+    margin: 1% 10%;
+    padding: 1%;
+}
+
+.row {
+    margin: 2%;
+}
+
+.logo {
+    height: 10rem;
+    width: 10rem;
+}
+
+.box2 {
+    text-align: center;
+    color: #F4F9E8;
+}
+
+.share {
+    margin-top: 100px;
+}
+
+.share-title {
+    color: #F4F9E8;
+    font-size: 0.95rem;
+    font-family: 'Satisfy', cursive;
+}
+
+.copyright {
+    font-size: 0.8rem;
+    opacity: 0.5;
+    color: #F4F9E8;
+}
+
+.copyright-img {
+    height: 25px;
+    width: 25px;
+}
+
+.footer-icon {
+    color: #F4F9E8;
+    font-size: 1.5rem;
+    margin: 10px 20px 20px 20px;
+    transition: 400ms;
+}
+
+.footer-icon:hover {
+    margin: 10px 30px;
+    transition: 400ms;
+    transform: scale(1.5);
+}
+
+.loading-img {
+    width: 60px;
+    height: 30px;
+}
+
+.clicked {
+    font-size: 1.25rem;
+    font-weight: 500;
+}
+
+footer {
+    margin-top: 20px;
+}
+
+.fa-heart {
+    color: rgb(45, 45, 154);
+}
+
+#love {
+    opacity: 0.8;
+    color: #F4F9E8;
+}
+
+
+/* meadia queries */
+@media only screen and (max-width:576px) {
+    .title {
+        margin-top: 15%;
+        margin-left: 1%;
+        margin-right: 1%;
+    }
+
+    .git {
+        font-size: 0.9rem;
+        margin: 5% 2%;
+        letter-spacing: 0rem;
+    }
+
+    .logo {
+        margin-left: 30%;
+        margin-right: 30%;
+        height: 8rem;
+        width: 8rem;
+    }
+
+    h1 {
+        font-size: 300%;
+    }
+
+    .col-3 {
+        width: 100%;
+    }
+
+    .col-9 {
+        width: 100%;
+    }
+
+    .btn-primary {
+        margin-top: 28px;
+        margin-bottom: 20px;
+        width: 25%px;
+    }
+
+    .box {
+        margin: 3% 5%;
+    }
+
+    .footer-icon {
+        margin: 10px 20px;
+    }
+    .footer-icon:hover {
+        margin: 10px 25px;
+        transform: scale(1.35);
+    }
+
+}
+
+@media only screen and (min-width:576px) and (max-width:840px) {
+    .title {
+        margin-top: 15%;
+        margin-left: 15%;
+        margin-right: 15%;
+    }
+
+    .git {
+        font-size: 0.9rem;
+        margin: 5% 2%;
+    }
+
+    .logo {
+        margin-left: 30%;
+        margin-right: 30%;
+        height: 8rem;
+        width: 8rem;
+    }
+
+    h1 {
+        font-size: 350%;
+    }
+
+    .col-3 {
+        width: 100%;
+    }
+
+    .col-9 {
+        width: 100%;
+    }
+
+    .btn-primary {
+        margin-top: 28px;
+        margin-bottom: 20px;
+        width: 25%px;
+    }
+
+    .box {
+        margin: 3% 8%;
+    }
+}
+
+@media only screen and (min-width:840px) and (max-width:1002px) {
+    .title {
+        margin-top: 13%;
+    }
+
+    .git {
+        margin: 5%;
+    }
+
+    .box {
+        margin: 3% 10%;
+    }
+    .logo {
+        height: 8rem;
+        width: 8rem;
+    }
+    h1 {
+        font-size: 400%;
+    }
+}
+
+
+
+/* loader */
+
+.lds-facebook {
+    display: inline-block;
+    position: relative;
+    width: 80px;
+    height: 80px;
+}
+
+.lds-facebook div {
+    display: inline-block;
+    position: absolute;
+    left: 8px;
+    width: 16px;
+    background: #cef;
+    animation: lds-facebook 1.2s cubic-bezier(0, 0.5, 0.5, 1) infinite;
+}
+
+.lds-facebook div:nth-child(1) {
+    left: 8px;
+    animation-delay: -0.24s;
+}
+
+.lds-facebook div:nth-child(2) {
+    left: 32px;
+    animation-delay: -0.12s;
+}
+
+.lds-facebook div:nth-child(3) {
+    left: 56px;
+    animation-delay: 0;
+}
+
+@keyframes lds-facebook {
+    0% {
+        top: 8px;
+        height: 64px;
+    }
+
+    50%,
+    100% {
+        top: 24px;
+        height: 32px;
+    }
+}
+
+
+
+.download-complete {
+    width: 40px;
+    height: 40px;
+}
+
+.fa-triangle-exclamation,
+.fa-link-slash {
+    color: rgb(231, 82, 82);
+}
