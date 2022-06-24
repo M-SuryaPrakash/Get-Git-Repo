@@ -28,8 +28,8 @@ function initSocialMeadiaButtons() {
     const rdBtn = $(".rd");
 
     let postUrl = encodeURI(document.location.href);
-    let postTitle = encodeURI("Hey Everyone! Check this out. Now you can download whole GitHub repositry or specific sub-folders or specific files with a single click!");
-    let waTitle = encodeURI("Hey! Check this out. Now you can download whole GitHub repositry or specific sub-folders or specific files with a single click!");
+    let postTitle = encodeURI("Hey Everyone! Check this out. Now you can download whole GitHub repository or specific sub-folders or specific files with a single click!");
+    let waTitle = encodeURI("Hey! Check this out. Now you can download whole GitHub repository or specific sub-folders or specific files with a single click!");
 
     fbBtn.attr("href", `https://www.facebook.com/sharer.php?u=${postUrl}`);
     waBtn.attr("href", `https://wa.me/?text=${waTitle}${postUrl}`);

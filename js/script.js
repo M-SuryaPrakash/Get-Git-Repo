@@ -27,7 +27,7 @@ function downloadRepo(repoUrl) {
 
     //status updater
     const loadingImg = '<div class="lds-facebook"><div></div><div></div><div></div></div>';
-    const downloadCompleteImg = '<img src="images/download-complete.webp" alt="download complete" class="download-complete">';
+    const downloadCompleteImg = '<img src="../images/download-complete.webp" alt="download complete" class="download-complete">';
     const invalidUrlImg = '<i class="fa-solid fa-link-slash fa-2x"></i>';
     const errorImg = '<i class="fa-solid fa-triangle-exclamation fa-2x"></i>'
 
